@@ -14,7 +14,7 @@ export function Home() {
       <Container>
         <Row>
           <Col className="textCenter">
-            <h2>Anotjitos Salvadoreño Restaurante</h2>
+            <h2>Antojitos Salvadoreño Restaurante</h2>
           </Col>
         </Row>
         <Row>
