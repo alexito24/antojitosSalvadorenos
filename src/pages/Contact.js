@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 import { Footer } from "../components/Footer";
 import { Map } from "../components/Map";
 import Navigation from "../components/Navigation";
@@ -11,14 +12,23 @@ import AccessTimeIcon from "@mui/icons-material/AccessTime";
 export function Contact() {
   return (
     <>
+      <Helmet>
+        <title>Antojitos Salvadoreño Restaurante</title>
+        <meta
+          name="description"
+          content="Best customer service. Give us a call or visit us at our location."
+        />
+        <link rel="canonical" href="/contact" />
+      </Helmet>
       <Navigation />
       <div className="parent">
         <Container>
           <Row>
             <Col className="textCenter">
-              <h4>
+              <h1>
+                Antojitos Salvadoreño <br />
                 <AccessTimeIcon /> Working Hours
-              </h4>
+              </h1>
             </Col>
           </Row>
           <Row>
@@ -44,7 +54,9 @@ export function Contact() {
           </Row>
         </Container>
         <br />
-        <Map />
+        <address>
+          <Map />
+        </address>
       </div>
       <Footer />
     </>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 import Navigation from "../components/Navigation";
 import { PupusasMenu } from "../menuComponents/PususasMenu";
 import Accordion from "react-bootstrap/Accordion";
@@ -15,10 +16,20 @@ import { Footer } from "../components/Footer";
 export function Menu() {
   return (
     <>
+      <Helmet>
+        <title>Antojitos Salvadoreño Restaurante</title>
+        <meta
+          name="description"
+          content="Best salvadoran menu in town. Enjoy pupusas, platillos tipicos, breakfast, and drinks."
+        />
+        <link rel="canonical" href="/menu" />
+      </Helmet>
       <Navigation />
 
       <div className="parent">
-        <h1 className="blueText">MENU</h1>
+        <h1 className="blueText textCenter">
+          Antojitos Salvadoreño Restaurante <br /> MENU
+        </h1>
         <br />
         <Accordion defaultActiveKey="0">
           <Accordion.Item eventKey="0">

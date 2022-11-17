@@ -26,12 +26,18 @@ function CollapsibleExample() {
       >
         <Container>
           <Navbar.Brand href="/">
-            <img className="logo" src={img01} />
+            <img
+              loading="eager"
+              title="antojitos salvadoreno logo"
+              className="logo"
+              src={img01}
+              alt="restaurant logo"
+            />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto justify-content-end flex-grow-1">
-              <Nav.Link href="/home">Home</Nav.Link>
+              <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="/menu">Menu</Nav.Link>
               <Nav.Link href="/contact">Contact Us</Nav.Link>
               <Nav.Link className="telbg" href="tel:(303) 997-4295">

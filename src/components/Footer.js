@@ -11,7 +11,7 @@ export function Footer() {
       <Container className="footer_container">
         <div className="footer_top">
           <div>
-            <h6 className="footer_title">Antojitos Salvadoreño Restaurante</h6>
+            <h4 className="footer_title">Antojitos Salvadoreño Restaurante</h4>
             <ul className="footer_list">
               <Container>
                 <Row>
