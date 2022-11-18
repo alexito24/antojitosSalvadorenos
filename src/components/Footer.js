@@ -10,22 +10,16 @@ import RestaurantMenuIcon from "@mui/icons-material/RestaurantMenu";
 import PhoneIcon from "@mui/icons-material/Phone";
 import DirectionsIcon from "@mui/icons-material/Directions";
 
-// import Accordion from "@mui/material/Accordion";
-import AccordionSummary from "@mui/material/AccordionSummary";
-import AccordionDetails from "@mui/material/AccordionDetails";
-import Typography from "@mui/material/Typography";
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-
 export function Footer() {
   return (
     <footer className="footer">
-      <Container className="footer_container">
+      <Container className="">
         <hr />
         <div className="footer_top">
           <div>
             <h4 className="footer_title">Antojitos Salvadoreño Restaurante</h4>
-            <ul className="footer_list">
-              <Container>
+            <ul className="">
+              <>
                 <hr />
                 <Row>
                   <Col className="textEnd">
@@ -35,22 +29,14 @@ export function Footer() {
                     </a>
                   </Col>
                   <Col>
-                    {/* <a
-                      className="link2"
-                      target="_blank"
-                      rel="noreferrer"
-                      aria-label="Get directions to this location on Google Maps."
-                      href="https://goo.gl/maps/Z63CsKbLi7dCarNY8"
-                    >
-                      <DirectionsIcon />
-                      COMO LLEGAR
-                    </a> */}
                     <a
                       aria-label="Get directions to this location on Google Maps."
                       target="_blank"
+                      without
+                      rel="noreferrer"
                       jstcache="38"
                       href="https://www.google.com/maps/dir//3896+Morrison+Rd+Denver,+CO+80219/@39.706897,-105.0383547,18z/data=!4m6!4m5!1m0!1m2!1m1!1s0x876b80994d653fbf:0x9beeaedd57ee4431!3e0"
-                      class="link2"
+                      className="link2"
                     >
                       <div jstcache="39" class=" link2">
                         <DirectionsIcon />
@@ -77,7 +63,7 @@ export function Footer() {
                   </Col>
                 </Row>
                 <hr />
-                <Accordion className="textCenter" defaultActiveKey="0">
+                <Accordion className="textCenter " defaultActiveKey="0">
                   <Accordion.Item eventKey="0">
                     <Accordion.Header>
                       <h4>
@@ -101,33 +87,7 @@ export function Footer() {
                     </Accordion.Body>
                   </Accordion.Item>
                 </Accordion>
-                {/* <Accordion className="noStyle textCenter">
-                  <AccordionSummary
-                    expandIcon={<ExpandMoreIcon />}
-                    aria-controls="panel1a-content"
-                    id="panel1a-header"
-                    className="textCenter"
-                  >
-                    <Row className="textCenter">
-                      <Col>Horario</Col>
-                    </Row>
-                  </AccordionSummary>
-                  <AccordionDetails>
-                    <br />
-                    <Row>
-                      <Col className="textEnd">Lunes a Viernes</Col>
-                      <Col>9:00am - 8:30pm</Col>
-                    </Row>
-                    <Row>
-                      <Col className="textEnd">Sábado</Col>
-                      <Col>9:00am - 9:00pm</Col>
-                    </Row>
-                    <Row>
-                      <Col className="textEnd">Domingo</Col>
-                      <Col>9:00am - 8:00pm</Col>
-                    </Row>
-                  </AccordionDetails>
-                </Accordion> */}
+
                 <hr />
                 <Row>
                   <Col className="textCenter">
@@ -136,7 +96,7 @@ export function Footer() {
                     </a>
                   </Col>
                 </Row>
-              </Container>
+              </>
             </ul>
           </div>
         </div>

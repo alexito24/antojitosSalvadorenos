@@ -5,9 +5,6 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Carousel from "react-bootstrap/Carousel";
 import img01 from "../images/img01.jpg";
-import img3 from "../images/img3.jpg";
-// import pht2 from "../images/pht2.jpg";
-// import pht3 from "../images/pht3.jpg";
 
 function CollapsibleExample() {
   const [index, setIndex] = useState(0);
