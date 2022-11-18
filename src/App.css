@@ -59,6 +59,10 @@ i{
   color: inherit;
   transition: color .25s;
 }
+.link2 {
+  text-decoration: none;
+  transition: color .25s;
+}
 
 .footer_list-link:hover {
   color: #fff;

@@ -26,16 +26,17 @@ export function Footer() {
             <h4 className="footer_title">Antojitos Salvadoreño Restaurante</h4>
             <ul className="footer_list">
               <Container>
+                <hr />
                 <Row>
                   <Col className="textEnd">
-                    <a className="link " href="tel:(303) 997-4295">
+                    <a className="link2 " href="tel:(303) 997-4295">
                       <PhoneIcon />
                       LLAMAR
                     </a>
                   </Col>
                   <Col>
                     <a
-                      className="link"
+                      className="link2"
                       target="_blank"
                       rel="noreferrer"
                       aria-label="Get directions to this location on Google Maps."
@@ -46,6 +47,7 @@ export function Footer() {
                     </a>
                   </Col>
                 </Row>
+                <hr />
                 <Row>
                   <Col className="textCenter">
                     <address>
