@@ -15,8 +15,8 @@ i{
 .footer {
   margin-top: 2vh;
   padding-block: 50px;
-  background-color: #151823;
-  color: #666873
+  /* background-color: #151823;
+  color: #666873 */
 }
 
 .footer_container {
@@ -110,7 +110,11 @@ img {
   height: 450px;
 }
 
-
+.noStyle{
+  box-shadow: none;
+  border: 0;
+  border-style: none;
+}
 
 .telbg{
   background: #2d97ff;
