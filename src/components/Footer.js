@@ -18,7 +18,7 @@ export function Footer() {
         <div className="footer_top">
           <div>
             <h4 className="footer_title">Antojitos Salvadoreño Restaurante</h4>
-            <ul className="">
+            <ul className="ul">
               <>
                 <hr />
                 <Row>
