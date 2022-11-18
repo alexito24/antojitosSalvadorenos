@@ -35,7 +35,7 @@ export function Footer() {
                     </a>
                   </Col>
                   <Col>
-                    <a
+                    {/* <a
                       className="link2"
                       target="_blank"
                       rel="noreferrer"
@@ -44,6 +44,19 @@ export function Footer() {
                     >
                       <DirectionsIcon />
                       COMO LLEGAR
+                    </a> */}
+                    <a
+                      aria-label="Get directions to this location on Google Maps."
+                      target="_blank"
+                      jstcache="38"
+                      href="https://maps.google.com/maps/dir//3896+Morrison+Rd+Denver,+CO+80219/@39.706897,-105.0383547,18z/data=!4m5!4m4!1m0!1m2!1m1!1s0x876b80994d653fbf:0x9beeaedd57ee4431"
+                      class="link2"
+                    >
+                      {" "}
+                      <div jstcache="39" class=" link2">
+                        <DirectionsIcon />
+                        COMO LLEGAR
+                      </div>{" "}
                     </a>
                   </Col>
                 </Row>
@@ -56,7 +69,7 @@ export function Footer() {
                         target="_blank"
                         rel="noreferrer"
                         aria-label="Get directions to this location on Google Maps."
-                        href="https://goo.gl/maps/Z63CsKbLi7dCarNY8"
+                        href="https://maps.google.com/maps/dir//3896+Morrison+Rd+Denver,+CO+80219/@39.706897,-105.0383547,18z/data=!4m5!4m4!1m0!1m2!1m1!1s0x876b80994d653fbf:0x9beeaedd57ee4431"
                       >
                         <PlaceIcon />
                         3896 Morrison Rd, Denver, CO 80219
